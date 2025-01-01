@@ -5,7 +5,7 @@ import (
 	"net"
 )
 
-func randomNetIPv4() string {
+func RandomNetIPv4() string {
 	privateRanges := []string{
 		"10.0.0.0/8",
 		"172.16.0.0/12",
